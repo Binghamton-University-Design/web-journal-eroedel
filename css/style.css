@@ -16,17 +16,22 @@ body {
 }
 
 h1, h2{
-	margin-top: 5;
+	margin-top: 0;
 	margin-bottom: 1em;
 }
 
 h1 {
+
 	font-family: 'Seymour One', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
 	color: black;
 	font-size: 40px;
 
+	font-weight: 900;
+	text-align: center;
+	color: black;
+	font-size: 40px;
 }
 
 h2 {
@@ -98,6 +103,62 @@ h1 {
 
 #projects .grid-item {
 	color: white;
+	text-align: center;
+	color: white;
+}
+
+h3 {
+	color:black;
+}
+
+#main {
+	background: pink;
+	margin: 2em;
+	padding: 2em;
+}
+
+#sidebar {
+	
+}
+
+#logo {
+	padding: 3em 0;
+}
+
+#logo h1 {
+	margin: 0;
+	color: black;
+}
+
+#logo img, .item img {
+	width: 100%;
+	height: auto;
+}
+
+.item img {
+	margin-bottom: 2em;
+	text-align: left;
+
+}
+
+#exquisite {
+	position: relative;
+	margin-bottom:0;
+}
+
+#exquisite .grid{
+	grid-gap:0;
+}
+
+#exquisite .grid img {
+	margin-bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#projects .grid-item {
+	color: white;
 	position: relative;
 
 }
@@ -138,8 +199,8 @@ h1 {
 	text-align: left;
 }
 
-/*nav*/
 
+/*nav*/
 *{
 	margin: 0;
 	padding: 0;
@@ -173,6 +234,7 @@ ul li a {
 
 ul li a:hover {
 	color: purple;
+	color: white;
 }
 
 /*page specific style sheet*/
